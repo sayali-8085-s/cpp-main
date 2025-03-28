@@ -1,12 +1,11 @@
-  #include <iostream>
+#include <iostream>
   using namespace std;
-  int maun() {
+  int main() {
   int k=0 ,i=1;
-  while (i<=50)
+  for ( ;i<=5;i++)
   {
     k=k+i;
-    i++;
+    
   }
   cout<<k;
 }
-    
